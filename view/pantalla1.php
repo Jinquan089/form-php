@@ -7,11 +7,11 @@
     <title>Recogida de datos</title>
 </head>
 <body>
-    <h1>Mostrar datos del formulario</h1>
+    <h1>Mostrar datos del formulario2</h1>
     <?php
-    // Codigo
-    echo $_REQUEST["nombre"];
-    echo $_REQUEST["pwd"];
+
+    echo $_POST['pokemon']  
+    
     ?>
 </body>
 </html>

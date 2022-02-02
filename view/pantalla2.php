@@ -10,7 +10,7 @@
     <h1>Mostrar datos del formulario2</h1>
     <?php
 
-    echo $_POST['pokemon']
+    //Codigo
     
     ?>
 </body>

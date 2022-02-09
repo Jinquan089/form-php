@@ -7,11 +7,15 @@
     <title>Recogida de datos</title>
 </head>
 <body>
-    <h1>Mostrar datos del formulario2</h1>
+    <h1>Mostrar datos del formulario 2</h1>
     <?php
 
-    //Codigo
+    session_start();
+    if (!($_SESSION["pantalla2"]=='check')) {
+        header("Location: ../index.php");
+    }
     
     ?>
+    <a href='../proc/replay.proc.php'>Volver a jugar</a>
 </body>
 </html>

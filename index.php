@@ -13,7 +13,7 @@
     <h1>Formulario para enviar datos</h1>
     <form action="proc/res.proc.php" method="post">
         <input type="text" name="pokemon" placeholder="Inserte pokemon...">
-        <input type="submit">
+        <input type="submit" name="index">
     </form>
     <?php
     if (isset($_GET['msg'])) {
